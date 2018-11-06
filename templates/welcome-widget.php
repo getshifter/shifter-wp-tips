@@ -1,7 +1,5 @@
 <h3>Essential support documents for Shifter users</h3>
 <dl>
-	<dt><a href="https://support.getshifter.io/creating-sites-on-shifter/creating-a-new-wordpress-site">Creating a new WordPress site</a></dt>
-	<dd>Create new WordPress sites right from the Shifter Dashboard in just a few clicks.</dd>
 	<dt><a href="https://support.getshifter.io/migrating-to-shifter">Migrating to Shifter</a></dt>
 	<dd>Migrate an existing WordPress site in just a few clicks.</dd>
 	<dt><a href="https://support.getshifter.io/selectively-control-static-content-with-shifter-generator-settings">Selectively control static content with Shifter Generator Settings.</a></dt>
