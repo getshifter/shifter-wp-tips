@@ -1,10 +1,12 @@
 <?php
 /*
 Plugin Name: Shifter tips
-Plugin URI: https://getshifter.io
+Plugin URI: https://github.com/getshifter/shifter-wp-tips
 Description: Show tips or help content about Shifter in your wp-admin
-Author: Shifter team
-Version: 1.0
+Version: 1.0.0
+Author: DigitalCube
+Author URI: https://getshifter.io
+License: GPL2
 */
 if ( ! is_admin() ) return;
 require_once('tips.php');
