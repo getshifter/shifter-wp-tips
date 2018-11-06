@@ -16,5 +16,12 @@
 				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-tools">' . __( 'Setting up Custom Domains' ) . '</a>', __( 'https://support.getshifter.io/setting-up-custom-domains/' ) ); ?></li>
 			</ul>
 		</div>
+		<div class="welcome-panel-column welcome-panel-last">
+			<h3><?php _e( 'Supports and Updates' ); ?></h3>
+			<ul>
+				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-editor-help">' . __( 'Docs & Support' ) . '</a>', __( 'https://support.getshifter.io' ) ); ?></li>
+				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-post">' . __( 'Shifter Blog' ) . '</a>', __( 'https://getshifter.io/blog' ) ); ?></li>
+			</ul>
+		</div>
 	</div>
 </div>
