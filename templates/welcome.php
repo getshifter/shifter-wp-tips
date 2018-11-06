@@ -3,22 +3,17 @@
 	<div class="welcome-panel-column-container">
 		<div class="welcome-panel-column">
 			<h3><?php _e( 'Get Started' ); ?></h3>
-			<a class="button button-primary button-hero load-customize hide-if-no-customize" href="<?php echo wp_customize_url(); ?>">Generate the site</a>
+			<ul>
+				<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Creating A New Site' ) . '</a>', __( 'https://support.getshifter.io/creating-sites-on-shifter/creating-a-new-wordpress-site/' ) ); ?></li>
+				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-tools">' . __( 'Update Generator settings' ) . '</a>', admin_url( 'admin.php?page=shifter-settings' ) ); ?></li>
+		</ul>
 		</div>
 		<div class="welcome-panel-column">
-			<h3><?php _e( 'Next Steps' ); ?></h3>
+			<h3><?php _e( 'Features' ); ?></h3>
 			<ul>
-				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-tools">' . __( 'Update Generator settings' ) . '</a>', admin_url( 'post-new.php' ) ); ?></li>
-				<li><?php printf( '<a href="%s" class="welcome-icon welcome-view-site">' . __( 'View your site' ) . '</a>', home_url( '/' ) ); ?></li>
-				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-video-alt3">' . __( 'Generate the site' ) . '</a>', admin_url( 'post-new.php?post_type=page' ) ); ?></li>
-			</ul>
-		</div>
-		<div class="welcome-panel-column welcome-panel-last">
-			<h3><?php _e( 'More Actions' ); ?></h3>
-			<ul>
-				<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Learn more about getting started' ) . '</a>', __( 'https://support.getshifter.io/creating-sites-on-shifter/creating-a-new-wordpress-site' ) ); ?></li>
-				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-editor-help">' . __( 'Docs & Support' ) . '</a>', __( 'https://support.getshifter.io' ) ); ?></li>
-				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-post">' . __( 'Shifter Blog' ) . '</a>', __( 'https://getshifter.io/blog' ) ); ?></li>
+				<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'What is Shifter?' ) . '</a>', __( 'https://support.getshifter.io/what-is-shifter/' ) ); ?></li>
+				<li><?php printf( '<a href="%s" class="welcome-icon welcome-widgets-menus">' . __( 'Shifter\'s key features explained' ) . '</a>', __( 'https://support.getshifter.io/shifter-s-key-features-explained/' ) ); ?></li>
+				<li><?php printf( '<a href="%s" class="welcome-icon dashicons-admin-tools">' . __( 'Setting up Custom Domains' ) . '</a>', __( 'https://support.getshifter.io/setting-up-custom-domains/' ) ); ?></li>
 			</ul>
 		</div>
 	</div>
